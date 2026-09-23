@@ -92,18 +92,18 @@ console.log(numbers9);
 
 // 3-E. Use indexOf() to find the index of an element
 
-const numbers10 = [1, 2, 3, 4, 5];
+const numbers17 = [1, 2, 3, 4, 5];
 
-const index10 = numbers10.indexOf(2);
+const index10 = numbers17.indexOf(2);
 
 console.log(index10);
 
 
 // 3-F. Use join() to convert an array to a string
 
-const numbers11 = [1, 2, 3, 4, 5];
+const numbers18 = [1, 2, 3, 4, 5];
 
-const string11 = numbers11.join(",");
+const string11 = numbers18.join(",");
 
 console.log(string11);
 
@@ -119,26 +119,26 @@ console.log(array12);
 
 // 7. Use length to find the number of elements
 
-const numbers13 = [1, 2, 3, 4, 5];
+const numbers19 = [1, 2, 3, 4, 5];
 
-const length13 = numbers13.length;
+const length13 = numbers19.length;
 
 console.log(length13);
 
 
 // 8. Use for...of to iterate through an array
 
-const numbers14 = [1, 2, 3, 4, 5];
+const numbers20 = [1, 2, 3, 4, 5];
 
-for (const number14 of numbers14) {
-    console.log(number14);
+for (const number20 of numbers20) {
+    console.log(number20);
 }
 
 
 // 9. Use Array.isArray() to check if an object is an array
 
-const numbers15 = [1, 2, 3, 4, 5];
+const numbers21 = [1, 2, 3, 4, 5];
 
-const result15 = Array.isArray(numbers15);
+const result20 = Array.isArray(numbers21);
 
-console.log(result15);
+console.log(result20);
