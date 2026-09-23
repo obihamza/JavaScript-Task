@@ -11,8 +11,8 @@ console.log("Total assets: ", x1 + x2);
 console.log("Net income: ", x1 * x2);
 console.log("Average: ", (x1 + x2) / 2);
 console.log("Discount: ", x1 - ((x1 * x2) / 100 ));
-console.log("Exponential ", x1 ** x2);
-console.log("Remainder ", x1 % x2);
+console.log("Exponential: ", x1 ** x2);
+console.log("Remainder: ", x1 % x2);
 
 
 // Strings 
@@ -360,12 +360,12 @@ while (meals.length < numberOfMeals) {
         desserts[Math.floor(Math.random() * desserts.length)]
     ];
 
-    let mealString = meal.join("|");
+    let mealStr = meal.join("|");
 
     let alreadyExists = false;
 
     for (let i = 0; i < meals.length; i++) {
-        if (meals[i].join("|") === mealString) {
+        if (meals[i].join("|") === mealStr) {
             alreadyExists = true;
             break;
         }
