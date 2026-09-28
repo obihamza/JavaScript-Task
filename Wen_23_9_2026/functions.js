@@ -158,9 +158,4 @@ function findIndex11(array11, element11) {
     return -1;
 }
 
-console.log(
-    findIndex11(
-        ["Ali", "Mazen", "Ayham", "Murad"],
-        "Ali"
-    )
-);
+console.log(findIndex11(["Ali", "Mazen", "Ayham", "Murad"],"Ali"));
